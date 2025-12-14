@@ -1,0 +1,8 @@
+.header{
+    background: linear-gradient(90deg,#0b7a3f 0%, #06763a 100%);
+    color: #04142b;
+    padding: 18px 12px;
+    text-align: center;
+    border-bottom: 4px solid rgba(0,0,0,0.06);
+}
+.header h1{margin:0;font-size:34px;color:#03142a;font-weight:800;letter-spacing:0.5px;text-shadow:0 2px 0 rgba(255,255,255,0.03)}
