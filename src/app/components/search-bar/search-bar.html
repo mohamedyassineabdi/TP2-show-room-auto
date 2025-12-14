@@ -9,7 +9,7 @@
 <div *ngIf="filteredAutos.length > 0" class="cards-grid">
   <article class="car-card" *ngFor="let auto of filteredAutos">
     <div class="card-media">
-      <img [src]="'/photos/' + auto.photo" [alt]="auto.model + ' photo'">
+      <img [src]=" auto.photo" [alt]="auto.model + ' photo'">
     </div>
     <div class="card-body">
       <h3 class="card-title" [class.high-power]="auto.power > 10">{{ auto.model }}</h3>
